@@ -1,0 +1,104 @@
+html, body {
+  margin: 0;
+  font-family: hind;
+  font-size: 8px;
+}
+/***********Header section***************/
+.header {
+  height: 8rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto 3rem;
+  font-size: 2rem;
+}
+/*Left side*/
+.logo {
+  display: flex;
+  height: 4rem;
+  justify-content: flex-start;
+  width: 20%;
+  flex-wrap: nowrap;
+}
+.title{
+  width: 50%;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+
+}
+#colmar{
+  color: #252525;
+}
+#academy{
+  color: #cccccc;
+}
+/*Right side*/
+.nav{
+  margin-right: 30px;
+  width: 100%;
+}
+.links{
+  display: flex;
+  justify-content: flex-end;
+}
+.nav_element {
+  margin: auto 8px;
+  color: black;
+  text-decoration: none;
+}
+/***********end header section***************/
+/*Banner section "Learn something new everyday"*/
+.banner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #cccccc;
+  height: 400px;
+  width: 100%;
+  max-width: 1200px;
+  margin: auto 24px;
+}
+.banner_pic{
+  width: 60%;
+  height: 100%;
+  margin: 32px 24px;
+  background-image: url("../images/banner.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.banner_text{
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  flex-shrink: 1.2;
+  margin-right: 24;
+  max-width: 600px;
+}
+.banner_text p {
+  margin: 0 2rem 0 1rem;
+  width: 100%;
+  overflow-wrap: break-word;
+}
+.text_title{
+  font-size: 4rem;
+}
+.text_text{
+  font-size: 2rem;
+}
+.text_button{
+  font-size: 2rem;
+  background-color: #636363;
+  width: 90%;
+}
+.text_button p{
+  margin: 8px 20px;
+  text-align: center;
+}
+/***********end banner section***************/
