@@ -3,14 +3,17 @@ html, body {
   font-family: hind;
   font-size: 8px;
   height: 100%;
-  margin:0;
+  max-width: 1500px;
+}
+.site_container{
+  margin: 0 3rem;
+  height: 330rem;
+  border: 1px solid #cccccc;
 }
 .section_one{
     background-color: white;
     width: 100%;
-    height: 8rem;
-
-
+    height: 2.5%;
 }
 /***********Header section***************/
 .header {
@@ -20,7 +23,6 @@ html, body {
   justify-content: space-between;
   align-items: center;
   font-size: 2rem;
-  margin: 4rem 3rem;
 }
 /*Left side*/
 .logo {
@@ -29,6 +31,7 @@ html, body {
   justify-content: flex-start;
   width: 20%;
   flex-wrap: nowrap;
+  margin-left: 3rem;
 }
 .title{
   width: 50%;
@@ -46,8 +49,8 @@ html, body {
 }
 /*Right side*/
 .nav{
-  margin-right: 30px;
-  width: 100%;
+  width: 50%;
+  margin-right: 24px;
 }
 .links{
   display: flex;
@@ -63,7 +66,7 @@ html, body {
 .section_two{
     background-color: #cccccc;
     width: 100%;
-    height: 100rem;
+    height: 20%;
 }
 .banner{
   display: flex;
@@ -71,7 +74,7 @@ html, body {
   align-items: center;
   height: 100%;
   width: 100%;
-  max-width: 150rem;
+  max-width: 200rem;
 }
 .banner_pic{
   width: 60%;
@@ -108,24 +111,25 @@ html, body {
   font-size: 2rem;
   background-color: #636363;
   width: 90%;
+  margin: 1rem 0;
 }
 .text_button p{
-  margin: 1rem 2.5rem;
   text-align: center;
+  margin: 1rem 0;
 }
 /***********end banner section***************/
 /************sub banner section**************/
 .section_three{
   background-color: white;
-  height: 100rem;
+  height: 22%;
 }
 .information{
   width: 100%;
-  height: 600px;
+  height: 100%;
   display: flex;
   background-color: white;
-  max-width: 150rem;
-  margin: 4rem 3rem;
+  max-width: 200rem;
+
 }
 .info_left{
   width: 60%;
@@ -134,6 +138,7 @@ html, body {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  margin: 4rem 3rem;
 }
 .info_pic{
   height: 60%;
@@ -145,27 +150,27 @@ html, body {
 }
 .info_text{
   width: 100%;
-  height: 40%;
+  height: 30%;
   margin: 0 0;
   font-size: 3rem;
 }
 .info_title {
-
-  margin: 3rem 0;
+  margin: 4rem 0rem 3rem 0rem;
 }
 .info_title p{
   margin:0;
-  font-size: 5.5rem;
+  font-size: 4.5rem;
   font-weight: bold;
-  font-style: italic;
 }
 .info_desc{
-  font-size: 2.5rem;
+  font-size: 2rem;
+  color: #969696;
   margin: 0;
 }
 .info_footer{
   font-size: 2rem;
-  margin: 0;
+  margin: 0
+  color: #636363;
 }
 
 
@@ -175,14 +180,16 @@ html, body {
   height: 100%;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  justify-content: space-between;
+  align-items:baseline;
+  justify-content: flex-start;
+  margin: 2rem 0;
 }
 .info_event{
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   width: 100%;
   height: 33%;
+  border: 1px solid #cccccc;
 }
 .info_event_pic{
   width: 35%;
@@ -201,9 +208,16 @@ html, body {
   font-size: 2.5rem;
   margin: 1rem auto;
 }
+.info_event_details{
+  color: #969696;
+}
+
 .info_event_details, .info_event_read_more {
   font-size: 2rem;
   margin: 1rem auto;
+}
+#info_event_top{
+  border-top: none;
 }
 #info_event_bottom{
   background-color: #cccccc;
@@ -220,7 +234,8 @@ html, body {
 /************end sub banner section**********/
 .section_four{
   background-color: #cccccc;
-  height: 100rem;
+  height: 30%;
+  margin-top: 4rem;
 }
 .courses{
   display: flex;
@@ -229,35 +244,42 @@ html, body {
   align-items: center;
   height: 100%;
   width: 100%;
-  max-width: 150rem;
+  max-width: 200rem;
 }
 .courses_main_title{
-  height: 5%;
+  height: 10%;
   width: 100%;
-  margin: 4rem 9rem;
+  margin: 4rem 0rem;
 }
 .courses_main_title p{
   width: 100%;
   font-weight: bold;
   font-size: 5rem;
   text-align: center;
+  vertical-align: top;
+  margin: 0;
 }
 .courses_ads{
   height: 95%;
-  margin: 4rem 9rem;
+  margin: 0;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 .courses_column{
-  height: 100%;
+  height: 95%;
   width: 33%;
-  margin: 4rem;
+  margin: 0 4rem 4rem 4rem;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 .top_course, .bottom_course{
   height: 50%;
-  width: 100%
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
 }
 .course_pic{
   width: 100%;
@@ -269,12 +291,27 @@ html, body {
 .course_title{
   font-weight: bold;
   font-size: 2.5rem;
+  margin: 2rem 2rem 1rem 2rem;
+
+}
+.course_title p{
+  margin: 0;
 }
 .course_desc_title{
   font-size: 2rem;
+  margin: 0rem 2rem 1rem 2rem;
+  color: #969696;
+}
+.course_desc_title p{
+  margin: 0;
 }
 .course_desc{
   font-size: 1.5rem;
+  margin: 0rem 2rem;
+  color: #969696;
+}
+.course_desc p{
+  margin: 0;
 }
 
 /*Start Section four: courses*/
@@ -300,7 +337,7 @@ html, body {
 /*Section Five - Thesis exhibit*/
 .section_five{
   background-color: white;
-  height: 100rem;
+  height: 30%;
 }
 .thesis{
   height: 100%;
@@ -318,6 +355,7 @@ html, body {
 .thesis_title p{
   font-weight: bold;
   font-size: 5rem;
+  margin: 0;
 }
 
 .thesis_content{
@@ -332,7 +370,7 @@ html, body {
   flex-direction: column;
 }
 .thesis_video{
-  margin: 4rem 3rem 3rem 3rem;
+  margin: 0rem 3rem 3rem 3rem;
 }
 .thesis_video video{
   height: 100%;
@@ -361,17 +399,22 @@ html, body {
   width: 40%;
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
 }
 .thesis_right_top, .thesis_right_bottom{
-  height: 50%;
+  height: 33%;
   width: 100%;
   display: flex;
+}
+.thesis_top_right{
+  background-color: #cccccc;
 }
 .thesis_text_title{
   font-size: 2.5rem;
 }
 .thesis_text_desc{
   font-size: 2rem;
+  color: #969696;
 }
 .thesis_pic{
   width: 35%;
@@ -379,7 +422,7 @@ html, body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  margin: 2rem;
+  margin: 0rem 2rem 2rem 2rem;
 }
 #thesis_rt_pic{
   background-image: url("../images/thesis-fisma.jpg");
@@ -390,4 +433,35 @@ html, body {
 }
 /*Section Five - Thesis END*/
 /*Begin section six*/
+.section_six{
+  background-color: white;
+  width: 100%;
+  height: 2.5%;
+}
+.footer{
+  border-top: 1px solid #cccccc;
+  margin: 2rem 3rem;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 2rem;
+  color: #636363;
+}
+.footer a{
+  text-decoration: none;
+  color: #636363;
+  margin: 1rem 0;
+}
+
+.footer_left{
+  text-align: left;
+  vertical-align: center;
+}
+.footer_right{
+  text-align: right;
+  vertical-align: center;
+}
+
+
 /*end section six*/
