@@ -463,7 +463,7 @@ html, body {
 .footer{
   border-top: 1px solid #cccccc;
   margin: 2rem 3rem 0 3rem;
-  width: 98%;
+  width: 95%;
   height: 100%;
   display: flex;
   justify-content: space-between;
@@ -545,14 +545,14 @@ html, body {
   }
   .banner_pic{
     width: 100%;
-    height: 65%;
+    height: 63%;
     margin: 0 0 32px 0;
     background-repeat: no-repeat;
     background-position: left;
     background-size: cover;
   }
   .banner_text{
-    width: 100%;
+    width: 95%;
     height: 25%;
     justify-content: flex-start;
     align-items: center;
